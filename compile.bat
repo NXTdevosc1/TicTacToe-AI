@@ -1,0 +1,1 @@
+cl main.c /Fe:tt.exe /O2
