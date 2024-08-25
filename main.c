@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <Windows.h>
 
+#include <intrin.h>
+#include <zmmintrin.h>
+
 UINT32 Squares = 0;
 UINT32 Bmp = 0x1FF;
 BOOL EngineTurn;
@@ -131,6 +134,7 @@ finish:
 int main() {
 
     printf("Tic Tac Toe AI (I dare you to beat me !) \n");
+
     printf("Choose X(0) or O(1) : "); 
     int Turn = 0;
     scanf("%d", &Turn);
